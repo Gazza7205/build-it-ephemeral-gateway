@@ -27,9 +27,9 @@ GatewayConnection {
     url = 'https://localhost:8443/restman'
 }
 
-GatewayExportConfig {
-    folderPath = '/prague'
-}
+// GatewayExportConfig {
+//     folderPath = '/prague'
+// }
 
 repositories {
     flatDir {
