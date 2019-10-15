@@ -8,7 +8,7 @@ ENV LANGUAGE="en_US:en"
 ENV ENV.PROPERTY.gateway.otk.port="443"
 ENV ENV.CONTEXT_VARIABLE_PROPERTY.\#OTK\ Storage\ Configuration.dbsystem="cassandra"
 
-#Changed!
+#Changed 1!
 
 #Copy the file that we build during gradle build
 COPY build/gateway/prague-1.0.0.gw7 /opt/docker/rc.d/deployment.gw7
